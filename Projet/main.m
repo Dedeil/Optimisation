@@ -3,7 +3,7 @@ clear variables
 close all
 clc
 
-addpath("fonctions", "images/3D-denoising", "matrices")
+addpath("fonctions", "images", "matrices")
 
 [xbar, faces] = loadOff("teapot.off");
 %% Affichage
